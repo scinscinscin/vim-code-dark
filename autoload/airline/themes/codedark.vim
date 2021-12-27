@@ -38,9 +38,9 @@ elseif !exists("g:codedark_term256")
     let g:codedark_term256=0
 endif
 
-let s:cdFront = {'gui': '#FFFFFF', 'cterm':  (g:codedark_term256 ? '15' : s:cterm07)}
+let s:cdFront = {'gui': '#eaeaea', 'cterm':  (g:codedark_term256 ? '15' : s:cterm07)}
 let s:cdFrontGray = {'gui': '#D4D4D4', 'cterm': (g:codedark_term256 ? '188' : s:cterm05)}
-let s:cdBack = {'gui': '#1E1E1E', 'cterm': (g:codedark_term256 ? '234' : s:cterm00)}
+let s:cdBack = {'gui': '#eaeaea', 'cterm': (g:codedark_term256 ? '000' : s:cterm00)}
 let s:cdSelection = {'gui': '#264F78', 'cterm': (g:codedark_term256 ? '24' : s:cterm01)}
 
 let s:cdBlue = {'gui': '#0A7ACA', 'cterm': (g:codedark_term256 ? '32' : s:cterm0D)}
